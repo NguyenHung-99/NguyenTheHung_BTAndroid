@@ -54,8 +54,6 @@ public class UserAdapter  extends RecyclerView.Adapter<UserAdapter.Viewholder> {
         return data.size();
     }
 
-
-
     public class Viewholder extends RecyclerView.ViewHolder {
          TextView id;
        TextView ten;

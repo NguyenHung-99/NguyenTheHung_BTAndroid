@@ -49,15 +49,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-ten = findViewById(R.id.tencanthem);
-tuoi = findViewById(R.id.tuoicanthem);
-them = findViewById(R.id.buttonthem);
-refesh = findViewById(R.id.refesh);
-id= findViewById(R.id.idcanthem);
+        ten = findViewById(R.id.tencanthem);
+        tuoi = findViewById(R.id.tuoicanthem);
+        them = findViewById(R.id.buttonthem);
+        refesh = findViewById(R.id.refesh);
+        id= findViewById(R.id.idcanthem);
         dataview = findViewById(R.id.dataview);
 
-// Instantiate the RequestQueue.
-      //  RequestQueue queue = Volley.newRequestQueue(this);
+
         getApi();
 
         refesh.setOnClickListener(new  View.OnClickListener() {
@@ -89,15 +88,6 @@ id= findViewById(R.id.idcanthem);
 
             }
         });
-
-// Request a string response from the provided URL.
-
-
-
-// Add the request to the RequestQueue.
-        //queue.add(stringRequest);
-
-
     }
 
     @Override
